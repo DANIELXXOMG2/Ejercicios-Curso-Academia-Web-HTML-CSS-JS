@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+}
+table {
+    color: #000000;
+    text-align: center;
+    border: 1px solid #E0E0E0;
+}
+caption {
+    margin-bottom: 5px;
+}
+caption a {
+    text-decoration: none;
+    color: tomato;
+}
+caption a:hover {
+    font-size: 18px;
+}
+th, td {
+    border: 1px solid #E0E0E0;
+    padding: 3px;
+
+}
+th {
+    background-color: lightblue;
+    font-family: Afacad Flux;
+}
+td {
+    font-family: Montserrat;
+}
+tr:nth-child(even) {
+    background-color: lightyellow;
+}
+tr:nth-child(odd) {
+    background-color: green;
+}
