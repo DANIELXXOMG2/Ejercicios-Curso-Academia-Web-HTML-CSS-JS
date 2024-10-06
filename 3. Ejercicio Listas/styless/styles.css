@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: white;    
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    color: burlywood;
+    font-size: 16.5px;
+}
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+li {
+    list-style-type: none;
+}
+ul li::before {
+    content: "✶";
+    padding-right: 6px;
+}
+ul {
+    padding: 0;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    text-align: justify;
+    font-size: 13px;
+
+}
+.texto a {
+    justify-content: center;
+    display: flex;
+}
+.texto p {
+    font-family: Petrona;
+}
+.menup {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: end;
+
+}
+.menu {
+    display: flex;
+    padding: 10px;
+    font-family: Raleway;
+    border: 1px solid ;
+}
+.menu a {
+    padding-left: 3px;
+}
