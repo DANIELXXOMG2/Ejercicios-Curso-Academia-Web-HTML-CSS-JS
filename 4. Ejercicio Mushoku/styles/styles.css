@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
+body {
+    background-color: #333333;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.menup {
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: 120rem;
+    font-family: PT Sans;
+    overflow: auto;
+}   
+
+.disc {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #393391;
+}
+.disc a, .disc i {
+    color: white;
+    padding: 10px;
+    background-color: #334444;
+    border-right: 1px solid white;
+    text-decoration: none;
+}
+.disc p {
+    margin: 0 20% 0 25%;
+    font-family: Karla;
+    font-size: 20px;
+}
+.disc a:hover {
+    color: black;
+    background-color: antiquewhite;
+    font-size: 15.9px;
+}
+.disc:hover {
+    background-color: lightsalmon;
+}
+.menu {
+    background-color: #334444;
+    padding: 10px;
+    border-left: 1px solid white;
+    height: auto;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    flex: 1;
+}
+.menu i {
+    margin-right: 10px;
+}
+.menu:hover, .menu a:hover {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 15.9px;
+}
+
+h1:hover {
+    font-style: oblique;
+}
+.interact {
+    width: 50%;
+    max-width: 500px;
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: #393331;
+}
+.interact img:hover {
+    width: 39.5%;
+}
+.interact ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.interact ul li {
+    margin: 0.5rem 0;
+    list-style: none;
+    border: 1px solid white;
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    background-color: #333339;
+}
+.interact ul a:hover {
+    background-color: #393391;
+    box-shadow: 0 0 10px 0 white;
+}
+.interact a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.interact a:hover {
+    background-color: lightcoral;
+    color: white;
+    padding: 10.1px;
+    font-size: 17px;
+    font-family: Karla;
+}
+.linea {
+    margin: 0.75rem 0 0 0;
+    width: 95%;
+    max-width: 119rem;
+}
+.mushoku:hover {
+    color: lightyellow;
+}
+.info {
+    margin: 20px 40px 20px 40px;
+    width: 70%;
+    text-align: justify;    
+}
+.info li {
+    list-style: none;
+    
+}
+.info li::before {
+    content: "•";
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.formu {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+.formu h2 {
+    margin: 10% 0 10% 0 ;
+}
+.formu input {
+    margin: 2% 0;
+    padding: 5px;
+    color: lightslategrey;
+}
+.boton {
+    border: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boton a {
+    font-family: Karla;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+.boton a:hover {
+    margin: 0;
+    padding: auto;
+    font-size: 21px;
+    box-shadow: 0 0 10px 0 black;
+}
+.video{
+    width: 70%;
+    margin-top: 5%;
+}
