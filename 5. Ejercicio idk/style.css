@@ -5,6 +5,7 @@ body {
     padding: 10px;
     margin: auto;
     min-height: 100vh;
+    background-color: rgb(90,172,20);
 }
 #titulo_principal {
     color: rgb(255,44,44);
@@ -20,7 +21,7 @@ nav {
     height: 30vh;
 }
 .container {
-
+    text-align: center;
 }
 a {
     text-align: end;
