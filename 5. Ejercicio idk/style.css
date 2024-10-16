@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     padding: 10px;
     margin: auto;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: rgb(90,172,20);
 }
 #titulo_principal {
@@ -16,10 +16,8 @@ nav {
     align-items: end;
     flex-direction: column;
 }
-.marco {
-    width: 30%;
-    height: 30vh;
-    background-color: lightgrey;
+iframe {
+    width: 50%;
 }
 .container {
     text-align: center;
