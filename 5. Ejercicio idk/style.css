@@ -19,6 +19,7 @@ nav {
 .marco {
     width: 30%;
     height: 30vh;
+    background-color: lightgrey;
 }
 .container {
     text-align: center;
