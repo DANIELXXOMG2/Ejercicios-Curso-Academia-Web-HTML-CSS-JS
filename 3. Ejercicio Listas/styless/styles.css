@@ -51,14 +51,17 @@ ul {
     width: 100%;
     justify-content: end;
     align-items: end;
-
+    border: 1px solid white;
 }
 .menu {
     display: flex;
     padding: 10px;
     font-family: Raleway;
-    border: 1px solid ;
+    border-left: 1px solid white;
 }
 .menu a {
     padding-left: 3px;
 }
+.menu:hover {
+    background-color: #333339;
+}   

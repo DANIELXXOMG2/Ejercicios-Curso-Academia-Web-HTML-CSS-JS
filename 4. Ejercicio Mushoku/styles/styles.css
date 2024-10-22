@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 .menup {
     border: 1px solid white;
@@ -17,13 +18,15 @@ body {
     max-width: 120rem;
     font-family: PT Sans;
     overflow: auto;
-}   
+}
 
 .disc {
     display: flex;
     align-items: center;
     flex: 1;
     background-color: #393391;
+    transition: 0.5s;
+    text-align: end;
 }
 .disc a, .disc i {
     color: white;
@@ -33,9 +36,9 @@ body {
     text-decoration: none;
 }
 .disc p {
-    margin: 0 20% 0 25%;
     font-family: Karla;
     font-size: 20px;
+    margin-left: 1rem;
 }
 .disc a:hover {
     color: black;
@@ -46,28 +49,22 @@ body {
     background-color: lightsalmon;
 }
 .menu {
-    background-color: #334444;
-    padding: 10px;
-    border-left: 1px solid white;
-    height: auto;
+    transition: 0.5s;
 }
 .menu a {
+    border-left: 1px solid white;
+    background-color: #334444;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    flex: 1;
+    padding: 10px 20px ;
+    transition: 0.5s;
 }
 .menu i {
     margin-right: 10px;
 }
-.menu:hover, .menu a:hover {
+.menu a:hover {
     background-color: antiquewhite;
     color: black;
-    font-size: 15.9px;
-}
-
-h1:hover {
-    font-style: oblique;
 }
 .interact {
     width: 50%;
@@ -80,8 +77,10 @@ h1:hover {
     border: 1px solid white;
     padding: 30px;
     background-color: #393331;
+    transition: 0.5s;
 }
 .interact img:hover {
+    transition: 0.5s;
     width: 39.5%;
 }
 .interact ul {
@@ -103,82 +102,102 @@ h1:hover {
     background-color: #333339;
 }
 .interact ul a:hover {
-    background-color: #393391;
     box-shadow: 0 0 10px 0 white;
+    background-color: #393391;
 }
-.interact a {
+.interact ul a {
     text-decoration: none;
     color: white;
     padding: 10px;
     width: 100%;
     justify-content: center;
     display: flex;
+    transition: 0.5s;
 }
-.interact a:hover {
-    background-color: lightcoral;
+#button {
+    background-color: #c6ac8f;
     color: white;
-    padding: 10.1px;
     font-size: 17px;
-    font-family: Karla;
+    transition: 0.5s;
+}
+#button:hover {
+    background-color: #5e503f;
 }
 .linea {
     margin: 0.75rem 0 0 0;
     width: 95%;
     max-width: 119rem;
 }
+.mushoku {
+    transition: 2s;
+}
 .mushoku:hover {
-    color: lightyellow;
-}
-.info {
-    margin: 20px 40px 20px 40px;
-    width: 70%;
-    text-align: justify;    
-}
-.info li {
-    list-style: none;
-    
-}
-.info li::before {
-    content: "•";
-    color: white;
-    font-size: 20px;
-    margin-right: 10px;
-}
-.formu {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 10px;
-}
-.formu h2 {
-    margin: 10% 0 10% 0 ;
-}
-.formu input {
-    margin: 2% 0;
-    padding: 5px;
-    color: lightslategrey;
-}
-.boton {
-    border: none;
-    padding: 0;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.boton a {
-    font-family: Karla;
-    font-size: 20px;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-}
-.boton a:hover {
-    margin: 0;
-    padding: auto;
-    font-size: 21px;
-    box-shadow: 0 0 10px 0 black;
+    color: #f2cc8f;
+    font-style: italic;
 }
 .video{
     width: 70%;
     margin-top: 5%;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.genero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0 5% 0 5%;
+}
+#submit {
+    background-color: #caf0f8;
+}
+#submit:hover {
+    background-color: #90e0ef;
+}
+
+form {
+    background-color: #403d39;
+    color: #ccc5b9;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+form h1 {
+    color: #d5bdaf;
+    transition: 1s;
+}
+form h1:hover {
+    font-size: 2.1rem;
+}
+form label, form input {
+    transition: 1s;
+}
+form label:hover {
+    color: rgb(213,55,145);
+}
+form input {
+    width: 50%;
+    padding: 5px;
+    align-items: center;
+    background-color: #eae2b7;
+}
+form input:hover {
+    background-color: #f8f8f8;
+    width: 45%;
+    font-size: 13px;
+    color: rgb(4,42,5);
+    font-style: italic;
+}
+.info {
+    text-align: justify;
+    padding: 0 3rem 0 3rem;
 }
