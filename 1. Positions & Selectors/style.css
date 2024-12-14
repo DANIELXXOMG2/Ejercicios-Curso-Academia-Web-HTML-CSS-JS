@@ -1,0 +1,83 @@
+body {
+    padding: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+div.container {
+    width: 50%;
+    min-height: 100px;
+    margin: 20px auto;
+    background-color: rgba(99, 213, 73, 0.575);
+    border: 5px groove black;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    font-size: 2vw;
+}
+div.container a.absoluto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: palegoldenrod;
+    border-radius: 10px 0;
+    transition: all 0.5s ease;
+}
+div.container a.absoluto:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    bottom: 10px;
+    right: 10px;
+}
+header.fix {
+    width: 80%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    font-size: 2.5vw;
+    z-index: 1;
+    border: 2px solid black;
+}
+header.fix h1.right {
+    background-color: rgb(154,77,135);
+    color: white;
+    margin: auto;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+header.fix h1.right:hover {
+    color: red;
+    position: relative;
+    background-color: rgb(178,243,210);
+    border-bottom: 4px solid black;
+}
+h1.right + nav.nave {
+    background-color: rgb(9, 233, 76);
+}
+nav.nave ul {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    gap: 2px;
+    padding: 0;
+}
+nav.nave li {
+    width: 33%;
+    text-align: center;
+    list-style-type: none;
+}
+nav.nave a {
+    display: block;
+    margin: auto;
+    padding: 5px 0;
+    color: black;
+    border: 2px dashed white;
+    font-size: 2.5vw;
+    transition: all 0.5s ease;
+}
+nav.nave a:hover {
+    background-color: blue;
+    color: white;
+}

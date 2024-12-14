@@ -1,0 +1,28 @@
+body {
+    background-color: lightslategray;
+    height: 100vh;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    display: inline-block; 
+    font-size: 4vw;
+    margin: auto;
+}
+header h1::first-line {
+    font-size: 5vw;
+    color: rgb(126,92,222);
+}
+main {
+    display: flex;
+}
+div.container {
+    display: inline-block;
+    max-width: 70%;
+    font-size: 2vw;
+    margin: auto;
+    padding: 1vw;
+    border: 0.2vw solid black;
+    background-color: rgb(126,92,222);
+}
